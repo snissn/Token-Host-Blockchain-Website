@@ -960,7 +960,7 @@
         }
 
         .value-proposition-background {
-            height:110rem;
+            height:130rem;
             float: left;
         }
 
@@ -973,6 +973,7 @@
 
         .value-proposition-body {
             position:static;
+            margin-bottom:20rem;
         }
         .value-proposition-graphic {
             position:static;
@@ -986,6 +987,8 @@
         .value-proposition-subbody {
             position:static;
             margin-top:1rem;
+            margin-bottom:20rem;
+
         }
 
         
@@ -1024,7 +1027,7 @@
             top: 84rem;
         }
         .value-proposition-background {
-            height:170rem;
+            height:190rem;
         }
     }
 

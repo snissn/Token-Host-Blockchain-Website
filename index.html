@@ -9,11 +9,12 @@
     </style>
 </head>
 <body>
+    <div class = 'mobile-container'>
 <div class = 'container'>
     <div class = 'top-background'></div>
     <div class = 'logo'></div>
-    <a class = 'navbutton'  style = 'left: 89.75rem;' id = 'active'> Overview </a> 
-    <a class = 'navbutton'  style = 'left: 100.3125rem;width:fit-content;'> Block Explorer </a>
+    <a class = 'navbutton' id = 'active'> Overview </a> 
+    <a class = 'navbutton'  style = 'width:fit-content;'> Block Explorer </a>
     <h1 class = "title"> EASILY BUILD BLOCKCHAIN APPS. FREE OF CHARGE. </h1>
     <h2 class = 'body'>Token Host makes building blockchain apps easier, faster, and cheaper with a familiar cloud-based dev platform. </h2>
     <a class = 'calltoaction'> <p> Start Building</p> </a>
@@ -21,45 +22,54 @@
 
     <div class = 'wedge'></div>
     <!-- value proposition -->
-    <div class = 'value-proposition-background'>    
-        <h1 class = 'value-proposition-title'> The Problem, Solved </h1>
-        <p class = 'value-proposition-body'> Blockchain apps require expert developers and expensive fees. 
-                                             Token host’s cloud-hosted blockchains solve common developer pain points like 
-                                             user authentication, key management, expensive fees paid for by end users and long transaction times.
-        </p>
-
-        <div class = 'value-proposition-graphic'></div>
-        <div class = 'venn-diagram-circle'></div> 
-        <div class = 'venn-diagram-title'>Cloud Platforms</div>
-        <div class = 'venn-diagram-body'> • AWS <br/> • Google Cloud <br/> • Mongo DB <br/> • Microsoft Azure </div>
-        <div class = 'venn-diagram-center'> Token Host </div>
-        <div class = 'venn-diagram-circle' style = 'left: 26.625rem;'></div> 
-        <div class = 'venn-diagram-title'  style = 'left: 36.625rem;'>Blockchain Platforms</div>
-        <div class = 'venn-diagram-body'   style = 'left: 37.125rem;'>• Ethereum <br /> • Polygon <br /> • Binance Chain <br /> • Hyperledger </div>
-
-        <div class = 'value-proposition-subtitle'> Alternatives </div>  
-        <div class = 'value-proposition-subbody'>Token Host solves the end-to-end developer pain points around building a complete blockchain application. 
+    <div class = 'value-proposition-background'> 
+        <div class = 'centering-container'>
+            <h1 class = 'value-proposition-title'> The Problem, Solved </h1>
+            <p class = 'value-proposition-body'> Blockchain apps require expert developers and expensive fees. 
+                                                 Token host’s cloud-hosted blockchains solve common developer pain points like 
+                                                 user authentication, key management, expensive fees paid for by end users and long transaction times.
+            </p>
+        
+            <div class = 'value-proposition-graphic'></div>
+            <div class = 'venn-diagram'>
+                <div class = 'venn-diagram-circle'></div> 
+                <div class = 'venn-diagram-title'>Cloud Platforms</div>
+                <div class = 'venn-diagram-body'> • AWS <br/> • Google Cloud <br/> • Mongo DB <br/> • Microsoft Azure </div>
+                <div class = 'venn-diagram-center'> Token Host </div>
+                <div class = 'venn-diagram-circle' id = 'right' ></div> 
+                <div class = 'venn-diagram-title'  id = 'blockchain'>Blockchain Platforms</div>
+                <div class = 'venn-diagram-body'   id = 'blockchains'>• Ethereum <br /> • Polygon <br /> • Binance Chain <br /> • Hyperledger </div>
+            </div>
+            <div class = 'value-proposition-subtitle'> Alternatives </div>  
+            <div class = 'value-proposition-subbody'>Token Host solves the end-to-end developer pain points around building a complete blockchain application. 
                                                  AWS, MongoDB, and Google Cloud provide end-to-end solutions for building apps, but lack blockchain functionality. 
                                                  Blockchain projects like Ethereum and its side chains (i.e. Polygon, Binance Chain) have complex user ID management, 
                                                  and require transactions to use the chain’s native currency.
+            </div>
         </div>
     </div> 
 
 
     <div class = 'benefits'>
         <div class = 'benefits-title'> Benefits </div>
-        <div class = 'benefits-icon-1'> </div>
-        <div class = 'benefits-subtitle'> Pay As You Go </div>
-        <div class = 'underline'></div>
-        <div class = 'benefits-body'> Serverless platforms that grow as you do. After our free beta that we’re currently offering, you’ll only pay for what you use. </div>
-        <div class = 'benefits-icon-2'></div>
-        <div class = 'benefits-subtitle' style = 'left: 44.3125rem;'> Usability </div>
-        <div class = 'underline' style = 'left: 49.875rem;'></div>
-        <div class = 'benefits-body'     style = 'left: 44.3125rem;'> Onboard users to your blockchain app as easily as a legacy app. Use social sign in or email without confusing gas fees. </div>
-        <div class = 'benefits-icon-3'> </div>
-        <div class = 'benefits-subtitle' style = 'left: 76.4375rem;'> Scalability </div>
-        <div class = 'underline' style = 'left: 80.75rem;'></div>
-        <div class = 'benefits-body'     style = 'left: 76.4375rem;'> Cloud-based platforms provide better scalability than the public blockchains currently used.</div>
+        <div class = 'benefit'>
+            <div class = 'benefits-icon-1'> </div>
+            <div class = 'benefits-subtitle'> Pay As You Go </div>
+            <div class = 'underline'></div>
+            <div class = 'benefits-body'> Serverless platforms that grow as you do. After our free beta that we’re currently offering, you’ll only pay for what you use. </div>
+        </div>
+        <div class = 'benefit'>
+            <div class = 'benefits-icon-2'></div>
+            <div class = 'benefits-subtitle'> Usability </div>
+            <div class = 'underline'></div>
+            <div class = 'benefits-body'    > Onboard users to your blockchain app as easily as a legacy app. Use social sign in or email without confusing gas fees. </div>
+        </div>
+        <div class = 'benefit'>
+            <div class = 'benefits-icon-3'> </div>
+            <div class = 'benefits-subtitle'> Scalability </div>
+            <div class = 'underline'></div>
+            <div class = 'benefits-body'> Cloud-based platforms provide better scalability than the public blockchains currently used.</div>
+        </div>
     </div>
 
     <div class = 'comparison'>
@@ -74,33 +84,40 @@
         <div class = 'comparison-right'>    
         <div class = 'comparison-title'> Our Way</div>
             <div class = 'comparison-body' > > Cloud hosting <br/><br/> 
-                                                                        > Open source Solidity smart contract ORM compiler <br /><br />
-                                                                        > Cross Chain Token Bridge <br /><br /> 
-                                                                        > Open source Mobile and Web framework
+                                             > Cross Chain Token Bridge <br /><br />
+                                             > Open source Mobile and Web framework <br /><br /> 
+                                             > Open source Solidity smart contract ORM compiler 
             </div>
         </div>
     </div>
 
     <div class = 'contact'>
-        <a class = 'discord'></a>
-        <div class = 'contact-title'> Stay Up To Date: </div>
-        <input placeholder = 'Email' type = 'email' class = 'contact-email' />
-        <button class = 'linkbutton'> Sign Up</button>
+        <div class = 'section'>
+            <a class = 'discord'></a>
+        </div>
+        <div class =  'section'>
+            <div class = 'contact-title'> Stay Up To Date: </div>
+            <input placeholder = 'Email' type = 'email' class = 'contact-email' />
+            <button class = 'linkbutton' id = 'contact' style = 'position: static;'> Sign Up</button>
+        </div>
     </div>
 
     <div class = 'examples'>
         <div class = 'examples-title'> Examples </div>
-        <div class = 'examples-subtitle'> Token Tweets </div>
-        <div class = 'underline' style = 'top: 30rem; left: 29.625rem;'> </div>
-        <div class = 'examples-body'>A twitter-like blockchain app where each “Tweet” is its own NFT.</div>
-        <div class = 'linkbutton' style = 'top: 46.375rem;left: 21.375rem;width: 25.375rem;'> Explore Token Tweets </div>
-        <div class = 'examples-graphic'></div>
+        <div class = 'benefit' id = 'example'>
+            <div class = 'benefits-subtitle' style = 'color: var(--dark-blue-021e73);font-size: 3rem;width: 30.5333rem;'> Token Tweets </div>
+            <div class = 'underline' style = 'left:10rem; width:10rem;'> </div>
+            <div class = 'benefits-body' style = 'color:var(--dark-blue-021e73);font-size:2.25rem;width: 30.5333rem;line-height: 3rem;'>A twitter-like blockchain app where each “Tweet” is its own NFT.</div>
+        </div>            
+
+        <div class = 'examples-graphic'></div>        
+        <div class = 'linkbutton' id = 'token'> Explore Token Tweets </div>
     </div>
 
     <div class = 'github'>
         <div class = 'github-graphic'></div>
         <div class = 'github-title'> Build Your First App </div>
-        <div class = 'github-hoop-logo' style = 'top: 6.875rem; left: 82.6875rem; width: 12.125rem; height: 12.125rem;'></div>
+        <div class = 'github-hoop-logo' ></div>
         <div class = 'github-body'>1. Visit Token Host’s developer documentation on Github.</div>
         <div class = 'github-body' style = 'top: 29rem;'>2. Clone the example app and make it your own!</div>
     </div>
@@ -108,8 +125,9 @@
 
     <div class = 'footer'>    
         <div class = 'footer-title'>Start Building</div>
-        <a class = 'linkbutton' style = 'top: 12.125rem;left: 46.5625rem;width: 13.125rem;height: 4rem;'> Let's Go! </a>
+        <a class = 'linkbutton' id = 'footer'> Let's Go! </a>
         <div class = 'footer-graphic'></div>
     </div>
+</div>
 </div>
 </body>

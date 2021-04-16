@@ -825,7 +825,6 @@
         letter-spacing: 0rem;
         color: #FFFFFF;
         opacity: 1;
-        background-color: red;
     }
 
     .footer {        
@@ -1286,7 +1285,6 @@
         }
         .footer {
             float:left;
-            background-color: red;
         }
         #footer {
             display: block;

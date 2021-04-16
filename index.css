@@ -825,6 +825,7 @@
         letter-spacing: 0rem;
         color: #FFFFFF;
         opacity: 1;
+        background-color: red;
     }
 
     .footer {        
@@ -833,7 +834,8 @@
         width: 106.75rem;
         background: var(--primary-gold-ffc700) 0% 0% no-repeat padding-box;
         background: #FFC700 0% 0% no-repeat padding-box;
-        opacity: 1;     
+        opacity: 1;  
+        margin-bottom: 10rem;   
     }
 
     .footer-title {
@@ -1021,15 +1023,12 @@
             left: 10.75rem;
             top: 84rem;
         }
+        .value-proposition-background {
+            height:170rem;
+        }
     }
 
     @media only screen and (max-width:950px) {
-        .value-proposition-background {
-            height:150rem;
-        }
-        .value-proposition-graphic {
-            display: none;
-        }
         .value-proposition-subtitle {
             top:105rem;
             left:7.3125rem;

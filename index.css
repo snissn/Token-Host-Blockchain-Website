@@ -124,14 +124,16 @@
 
     .top-background {
         position: absolute;
-        top: -52vh;
+        top: -30vw;
         left:-10vh;
-        width: 150vw;
+        width:150vw;
+        min-width: 600px;
         max-width: 150vw;
+        display: inline-block;
         height: 200vh;
         background-image: url('img/Token BIG-01.png');
         background-position: top left;
-        background-size:133vw 230vh;
+        background-size:contain;
         background-repeat:no-repeat;
     }
 
@@ -140,6 +142,7 @@
         top: 4.9375rem;
         left: 4.4375rem;
         width: 38rem;
+        max-width: 95vw;
         height: 8rem;
         background: transparent url('Token Host Brand Assets/SVG/Wordmark.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
@@ -1104,7 +1107,11 @@
 
     @media only screen and (max-width:800px) {
         .logo {
-            display:none;
+            left:1rem;
+            max-width: 93vw;
+        }
+        .navbutton {
+            top:13rem;
         }
         .title{
             left:8vw;
@@ -1297,7 +1304,7 @@
 
     @media only screen and (max-width:350px) {
         #active {
-            left:3rem;
+            left:2rem;
         }
         .navbutton {
             left:13rem;

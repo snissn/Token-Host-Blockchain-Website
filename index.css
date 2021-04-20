@@ -164,10 +164,13 @@
         opacity: 1;
         line-height:1.5rem;
         cursor:pointer;
+text-decoration: none
     }
 
-    #active {
+    #active{
         right: 26rem;
+    }
+    #active, .navbutton:hover {
         color: #0528F2;
         padding-bottom: 0.125rem;
         border-bottom: 0.1875rem solid #0528F2;  
